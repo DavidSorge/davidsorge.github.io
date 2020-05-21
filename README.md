@@ -1,2 +1,3 @@
 # davidsorge.github.io
-My web headquarters
+
+This is my web headquarters, otherwise known as my website. It's for hosting all kinds of interesting stuff.
