@@ -11,7 +11,7 @@ layout: feed
 	<id>http://davidsorge.github.io/blog</id>
 	<author>
 		<name>David Sorge</name>
-		<email>davidsorge@gmail.com</email>
+		<email>david.c.sorge@gmail.com</email>
 	</author>
 
 	{% for post in site.posts %}
