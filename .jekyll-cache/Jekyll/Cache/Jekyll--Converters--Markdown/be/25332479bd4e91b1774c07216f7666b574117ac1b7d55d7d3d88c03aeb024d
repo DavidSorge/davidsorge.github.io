@@ -1,0 +1,14 @@
+I"(<p>or, in a decent English translation, “The end of a matter is better than its beginning; likewise, patience is better than pride.” <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>This is the beginning of my venture into website building. I’m stumbling a lot at the moment, but the folks at <a href="http://jekyllrb.com">Jekyll</a> have made it a whole lot easier than trying to sit here and type a bunch of html. Thanks! Oh, and while I’m thanking people, I’m immensely grateful to <a href="jmcglone.com">Jonathan McGlone</a> for putting together the <a href="http://jmcglone.com/guides/github-pages/">website-building guide I followed</a>! Also to Julian Thilo for putting together the <a href="https://jekyll-windows.juthilo.com/">guide to running Jekyll on Windows</a>!</p>
+
+<p>So now comes the part with the patience–slowly learning to use my tools, and to create something good and worthwhile here.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>That’s Ecclesiastes 7:8a NIV, in case you’re interested. Unless you’re using the Vulgate, in which case for some reason it’s Ecclesiastes 7:9a. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
