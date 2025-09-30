@@ -1,0 +1,180 @@
+/* CV-Inspired Full Site Layout */
+
+/* Reset and base styling from CV */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font: normal normal 400;
+	font-size: 100%;
+	line-height: 1.5em;
+	font-family: Avenir, Verdana, sans-serif;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/* Professional navigation in CV style */
+nav {
+	position: relative;
+	margin-bottom: 3em;
+}
+
+nav ul {
+	position: relative;
+	left: 25%;
+	width: 75%;
+	list-style: none;
+	margin-bottom: 1.5em;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 2em;
+	font-family: Avenir, Cousine, Verdana, sans-serif;
+	font-weight: 400;
+}
+
+nav ul li a {
+	color: #1e6091;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #39f;
+}
+
+/* Site title in CV style */
+.site-title {
+	text-align: left;
+	font-size: 3em;
+	line-height: 1em;
+	position: relative;
+	left: 25%;
+	font-family: Avenir, Cousine, Verdana, sans-serif;
+	font-weight: 400;
+	color: #1e6091;
+	margin-bottom: 0.5em;
+}
+
+/* Content in CV's two-column style */
+.content-wrapper {
+	position: relative;
+	min-height: calc(100vh - 200px);
+}
+
+/* Main content area */
+.main-content {
+	position: relative;
+	left: 25%;
+	width: 65%;
+}
+
+.main-content p {
+	margin-bottom: 0.7em;
+	margin-right: 0;
+}
+
+.main-content h2 {
+	font-size: 1.5em;
+	color: #1e6091;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	font-family: Avenir, Cousine, Verdana, sans-serif;
+	font-weight: 400;
+}
+
+.main-content h3 {
+	font-size: 1.2em;
+	color: #666;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	font-family: Avenir, Cousine, Verdana, sans-serif;
+	font-weight: 400;
+}
+
+/* Sidebar for dates, metadata, etc. (CV style) */
+.sidebar-left {
+	position: absolute;
+	left: 0;
+	width: 20%;
+	text-align: right;
+	font-family: Monaco, Menlo, monospace, sans-serif;
+	color: #aaa;
+	font-size: 90%;
+}
+
+/* Blog posts in CV style */
+.post-list {
+	position: relative;
+	left: 25%;
+	width: 75%;
+	margin-bottom: 1.5em;
+}
+
+.post-item {
+	margin-bottom: 1em;
+	position: relative;
+}
+
+.post-date {
+	position: absolute;
+	left: -30%;
+	width: 25%;
+	text-align: right;
+	font-family: Monaco, Menlo, monospace, sans-serif;
+	color: #aaa;
+	font-size: 90%;
+	top: 0.2em;
+}
+
+.post-title {
+	color: #1e6091;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.post-title:hover {
+	color: #39f;
+}
+
+/* Footer in CV style */
+footer {
+	position: relative;
+	left: 25%;
+	width: 75%;
+	margin-top: 3em;
+	padding-top: 1em;
+	border-top: 1px solid #ddd;
+	font-size: 0.9em;
+	color: #666;
+}
+
+/* Links styled like CV */
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #39f;
+}
+
+/* Code blocks like CV */
+code {
+	font-family: Monaco, Menlo, monospace, sans-serif;
+	color: #aaa;
+	font-size: 90%;
+}
