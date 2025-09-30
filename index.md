@@ -1,6 +1,6 @@
 ---
 layout: page
-title: David Sorge - Conflict & Peace Research
+title: What do we know about Riots?
 subtitle: Apprentice Sociologist & Conflict Researcher
 description: David Sorge is a sociologist studying ethno-religious violence, social movements, and transformative justice approaches.
 featured_image: /images/social.jpg
