@@ -2,3 +2,63 @@ name: David Sorge
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 highlighter: rouge
+
+# CV-specific settings
+cv_style: davewhipp  # Options: davewhipp, kjhealy
+
+# Collections for academic content
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  research:
+    output: true
+    permalink: /research/:slug
+  teaching:
+    output: true
+    permalink: /teaching/:slug
+  danga:
+    output: true
+    permalink: /danga/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "teaching"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "danga"
+    values:
+      layout: "project"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap

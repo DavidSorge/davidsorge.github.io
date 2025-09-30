@@ -4,7 +4,7 @@
 	<title>David Sorge's Musings</title>
 	<link href="http://davidsorge.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://davidsorge.github.io/blog"/>
-	<updated>2021-01-05T13:59:26-05:00</updated>
+	<updated>2025-09-30T06:40:38-04:00</updated>
 	<id>http://davidsorge.github.io/blog</id>
 	<author>
 		<name>David Sorge</name>
@@ -17,7 +17,7 @@
 			<link href="http://davidsorge.github.io/blog/2020/05/21/melior-est-finis-orationis-quam-principium"/>
 			<updated>2020-05-21T00:00:00-04:00</updated>
 			<id>http://davidsorge.github.io/blog/2020/05/21/melior-est-finis-orationis-quam-principium</id>
-			<content type="html">&lt;p&gt;or, in a decent English translation, “The end of a matter is better than its beginning; likewise, patience is better than pride.” &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+			<content type="html">&lt;p&gt;or, in a decent English translation, “The end of a matter is better than its beginning; likewise, patience is better than pride.” &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;This is the beginning of my venture into website building. I’m stumbling a lot at the moment, but the folks at &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; have made it a whole lot easier than trying to sit here and type a bunch of html. Thanks! Oh, and while I’m thanking people, I’m immensely grateful to &lt;a href=&quot;jmcglone.com&quot;&gt;Jonathan McGlone&lt;/a&gt; for putting together the &lt;a href=&quot;http://jmcglone.com/guides/github-pages/&quot;&gt;website-building guide I followed&lt;/a&gt;! Also to Julian Thilo for putting together the &lt;a href=&quot;https://jekyll-windows.juthilo.com/&quot;&gt;guide to running Jekyll on Windows&lt;/a&gt;!&lt;/p&gt;
 
@@ -25,7 +25,7 @@
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;That’s Ecclesiastes 7:8a NIV, in case you’re interested. Unless you’re using the Vulgate, in which case for some reason it’s Ecclesiastes 7:9a. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
