@@ -7,18 +7,29 @@ featured_image: /images/social.jpg
 permalink: /research-overview/
 ---
 
-<section class="portfolio">
+<img src="../images/Sorge_Research_Program.png" alt="David Sorge's Research Agenda" style="max-width: 100%; height: auto;"/>
+
+<section class="single" style="padding-bottom: 1rem;">
+<div class="wrap" markdown="1">
+
+A brief statement of my research agenda is available [here](docs/Sorge_Research_Statement.pdf), and a more detailed version is available [here](docs/Sorge_Research_Statement_long.pdf)
+
+</div>
+</section>
+
+<section class="portfolio" style="padding-top: 1rem;">
 
 	<div class="content-wrap portfolio-wrap">
 
-		{% for project in site.research reversed %}
+		{% assign sorted_research = site.research | sort: 'path' %}
+		{% for project in sorted_research %}
 
 		<div class="portfolio-item">
 
 			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
 
 				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
+					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'; this.parentNode.innerHTML='<div style=&quot;color: #666; font-size: 3rem;&quot;>📊</div>';">
 				</div>
 
 				<div class="portfolio-item__content">
@@ -37,3 +48,4 @@ permalink: /research-overview/
 	</div>
 
 </section>
+

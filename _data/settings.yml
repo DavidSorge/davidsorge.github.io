@@ -1,6 +1,6 @@
 basic_settings:
   site_title: David C. Sorge
-  site_tagline: "Sociologist: Social Movements, Critical Criminology, Peace Studies" 
+  site_tagline: "Sociologist of Social Movements, Critical Criminology, & Peace Studies" 
 
 header_settings:
   logo_image: 
@@ -12,10 +12,12 @@ menu_settings:
       url: '/'
     - title: 'Research'
       url: '/research-overview'
-    - title: 'Teaching'
-      url: '/teaching-overview'
     - title: 'DANGA Lab'
       url: '/danga-overview'
+    - title: 'Teaching'
+      url: '/teaching-overview'
+    - title: 'Speculative Visions'
+      url: '/speculative-visions'
     - title: 'CV'
       url: '/cv/'
     - title: 'Contact'
@@ -62,7 +64,7 @@ social_settings:
 color_settings:
   background_color: '#ffffff'
   background_alt_color: '#F5F7FA'
-  text_dark_color: '#2A2F36'
+  text_dark_color: '#17a2b8'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
   accent_color: '#1e6091'
@@ -159,9 +161,9 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   blockquote:
-    small_size: 25
-    medium_size: 35
-    large_size: 45
+    small_size: 20
+    medium_size: 22
+    large_size: 25
     weight: 300
     letter_spacing: -0.02
     line_height: 1.6
@@ -172,6 +174,6 @@ font_settings:
 advanced_settings:
   ajax_loading: true
   analytics_code: ""
-  custom_styles: ""
+  custom_styles: "/* Hide title and subtitle on homepage to bring image to top */ body[data-page-url='/'] .intro { display: none; }"
   header_js: ""
   footer_js: ""

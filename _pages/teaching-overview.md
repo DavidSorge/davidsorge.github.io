@@ -7,39 +7,16 @@ featured_image: '/images/teaching-philosophy.jpg'
 permalink: /teaching-overview/
 ---
 
-<section class="single">
-
-	<div class="wrap">
-
-		<h2>Teaching Philosophy</h2>
-
-		<p>"To teach is to create a space in which the community of truth is practiced," and this captures the soul of my teaching. I want students to cultivate transferable skills: the ability to read critically, think sociologically, engage in dialogue across difference, and connect research to real-world challenges.</p>
-
-		<h3>Creating Space</h3>
-
-		<p>My pedagogy grows out of active and experiential learning, built around the cycle of encounter and reflection. Students engage with material before class, then participate in small-group dialogue and collaborative activities that help them process and apply concepts. These give quieter students room to participate in ways they might not in larger group discussions.</p>
-
-		<h3>Nurturing Communities of Truth</h3>
-
-		<p>I center methods that build teamwork and empathy, even in challenging material. Students practice sociological sympathy—seeing the world through perspectives that may initially feel uncomfortable, but that expand their capacity for understanding.</p>
-
-		<h3>Supporting Practice</h3>
-
-		<p>Behind the ideals are structures that help students grow. I align assignments with transferable skills and design portfolio projects that connect to students' goals and interests. The results have been breathtaking: documentaries, podcasts, policy briefs, and creative projects that demonstrate deep engagement with course material.</p>
-
-		<p><em>"One of the main reasons I decided to be a Sociology major was because of Professor Sorge."</em> — Student feedback</p>
-
-	</div>
-
-</section>
-
 <section class="portfolio">
 
 	<div class="content-wrap portfolio-wrap">
 
-		<h2 style="text-align: center; margin-bottom: 2rem; position: relative; z-index: 10; background: white; padding: 1rem 0;">My Courses</h2>
+		<h2 style="text-align: center; margin-bottom: 2rem; position: relative; z-index: 10; background: white; padding: 1rem 0;">Teaching Portfolio</h2>
 
-		{% for course in site.teaching reversed %}
+		{% assign quotes = "YES! YES!! YES!!! Prof. Sorge is seriously one of the best professors in the department… he is so passionate about the material and does his best to cultivate this same passion and interest in the students he teaches.|Student, Social Theory, Fall 2024~He made a class that could have been really difficult and dense, interesting, diverse and fun, while still pushing and challenging us.|Student, Social Theory, Spring 2025~His attentiveness to every student in the class and his efforts to create a welcoming environment contribute to the positive learning experience. Additionally, the course content is academically stimulating, making it especially valuable for students eager to explore the complexities of the contemporary world.|Student, Global Sociology, Fall 2023~David absolutely created an accessible and inclusive course experience. I struggle to think of a professor who has done this better.|Student, Social Dynamics of Violence, Spring 2025~One of the main reasons I decided to be a Sociology major was because of Professor Sorge.|Student, The Social Life of Emotions, Spring 2025" | split: "~" %}
+
+		{% assign sorted_courses = site.teaching | sort: 'path' %}
+		{% for course in sorted_courses %}
 
 		<div class="portfolio-item">
 
@@ -60,8 +37,106 @@ permalink: /teaching-overview/
 
 		</div>
 
+		<!-- Show quote after courses 2, 3, 5, 7, 9 -->
+		{% if forloop.index == 2 %}
+			{% assign quote_parts = quotes[0] | split: "|" %}
+			{% assign quote_text = quote_parts[0] %}
+			{% assign quote_attribution = quote_parts[1] %}
+
+			<div class="portfolio-item" style="background: white; border-radius: 8px; border: 1px solid #e9ecef;">
+				<div style="padding: 2rem; color: #1e6091; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+					<blockquote style="font-style: italic; font-size: 1.1rem; line-height: 1.6; margin: 0 0 1rem 0; border: none; padding: 0; color: #1e6091;">
+						"{{ quote_text }}"
+					</blockquote>
+					<cite style="font-size: 0.9rem; opacity: 0.8; font-weight: 300; color: #1e6091;">
+						— {{ quote_attribution }}
+					</cite>
+				</div>
+			</div>
+		{% endif %}
+
+		{% if forloop.index == 4 %}
+			{% assign quote_parts = quotes[1] | split: "|" %}
+			{% assign quote_text = quote_parts[0] %}
+			{% assign quote_attribution = quote_parts[1] %}
+
+			<div class="portfolio-item" style="background: white; border-radius: 8px; border: 1px solid #e9ecef;">
+				<div style="padding: 2rem; color: #1e6091; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+					<blockquote style="font-style: italic; font-size: 1.1rem; line-height: 1.6; margin: 0 0 1rem 0; border: none; padding: 0; color: #1e6091;">
+						"{{ quote_text }}"
+					</blockquote>
+					<cite style="font-size: 0.9rem; opacity: 0.8; font-weight: 300; color: #1e6091;">
+						— {{ quote_attribution }}
+					</cite>
+				</div>
+			</div>
+		{% endif %}
+
+		{% if forloop.index == 6 %}
+			{% assign quote_parts = quotes[2] | split: "|" %}
+			{% assign quote_text = quote_parts[0] %}
+			{% assign quote_attribution = quote_parts[1] %}
+
+			<div class="portfolio-item" style="background: white; border-radius: 8px; border: 1px solid #e9ecef;">
+				<div style="padding: 2rem; color: #1e6091; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+					<blockquote style="font-style: italic; font-size: 1.1rem; line-height: 1.6; margin: 0 0 1rem 0; border: none; padding: 0; color: #1e6091;">
+						"{{ quote_text }}"
+					</blockquote>
+					<cite style="font-size: 0.9rem; opacity: 0.8; font-weight: 300; color: #1e6091;">
+						— {{ quote_attribution }}
+					</cite>
+				</div>
+			</div>
+		{% endif %}
+
+		{% if forloop.index == 7 %}
+			{% assign quote_parts = quotes[3] | split: "|" %}
+			{% assign quote_text = quote_parts[0] %}
+			{% assign quote_attribution = quote_parts[1] %}
+
+			<div class="portfolio-item" style="background: white; border-radius: 8px; border: 1px solid #e9ecef;">
+				<div style="padding: 2rem; color: #1e6091; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+					<blockquote style="font-style: italic; font-size: 1.1rem; line-height: 1.6; margin: 0 0 1rem 0; border: none; padding: 0; color: #1e6091;">
+						"{{ quote_text }}"
+					</blockquote>
+					<cite style="font-size: 0.9rem; opacity: 0.8; font-weight: 300; color: #1e6091;">
+						— {{ quote_attribution }}
+					</cite>
+				</div>
+			</div>
+		{% endif %}
+
+		{% if forloop.index == 9 %}
+			{% assign quote_parts = quotes[4] | split: "|" %}
+			{% assign quote_text = quote_parts[0] %}
+			{% assign quote_attribution = quote_parts[1] %}
+
+			<div class="portfolio-item" style="background: white; border-radius: 8px; border: 1px solid #e9ecef;">
+				<div style="padding: 2rem; color: #1e6091; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+					<blockquote style="font-style: italic; font-size: 1.1rem; line-height: 1.6; margin: 0 0 1rem 0; border: none; padding: 0; color: #1e6091;">
+						"{{ quote_text }}"
+					</blockquote>
+					<cite style="font-size: 0.9rem; opacity: 0.8; font-weight: 300; color: #1e6091;">
+						— {{ quote_attribution }}
+					</cite>
+				</div>
+			</div>
+		{% endif %}
+
 		{% endfor %}
 
 	</div>
 
+</section>
+
+<section class="single">
+<div class="wrap" markdown="1">
+
+
+## Teaching Philosophy
+
+A brief statement of my teaching philosophy is available [here](docs/Sorge_Teaching_Statement.pdf), and my reflections on the importance of justice, equity, diversity, and inclusion in the classroom is available [here](docs/Sorge_JEDI_Statement.pdf).
+
+
+</div>
 </section>

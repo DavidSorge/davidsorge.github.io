@@ -20,6 +20,9 @@ collections:
   danga:
     output: true
     permalink: /danga/:slug
+  speculative:
+    output: true
+    permalink: /speculative/:slug
 
 defaults:
   -
@@ -49,6 +52,12 @@ defaults:
     scope:
       path: ""
       type: "danga"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "speculative"
     values:
       layout: "project"
 

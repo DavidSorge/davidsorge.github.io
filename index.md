@@ -1,31 +1,18 @@
 ---
 layout: page
-title: What do we know about Riots?
-subtitle: Apprentice Sociologist & Conflict Researcher
+title: Hi, I'm David!
 description: David Sorge is a sociologist studying ethno-religious violence, social movements, and transformative justice approaches.
-featured_image: /images/social.jpg
+featured_image: /images/DavidSorge3.png
 ---
 
-I'm an apprentice sociologist (aka doctoral candidate turned visiting assistant professor) studying conflict escalation, propagation, de-escalation, and resolution in South Asia. A key question that drives me: "How can violence be non-violently constrained?"
+<img src="images/DavidSorge3.png" alt="David Sorge Headshot Monochrome" width="400"/>
 
-Currently a Visiting Assistant Professor of Sociology at Bryn Mawr College, I completed my Ph.D. in Sociology at the University of Pennsylvania in 2022. My dissertation examined three dimensions of violence: repertoire paralysis, localized diffusion, and emotional interventions in de-escalation.
+Hi, I'm David!
 
-## Research
+I'm a Visiting Assistant Professor in the Department of Sociology at Bryn Mawr College. I am primarily a social movements scholar, with adjacent interests in the sociology of violence, peace studies, sociology of religion, and postcolonial sociology.
 
-My research program investigates ethno-religious violence across three levels:
+In my research, I use computational text analysis, GIS mapping, diffusion analysis, and ethnographic video analysis to understand how violence emerges, spreads, and can be transformed.
 
-- **Micro:** Emotional dynamics of confrontation and de-escalation
-- **Meso:** Movement ecology and tactical diffusion
-- **Macro:** Media networks, religious fields, and postcolonial state structures
+My pedagogy centers on active learning, dialogue across difference, and connecting research to real-world challenges. I want students to develop not just sociological knowledge, but transferable skills: critical reading, collaborative inquiry, and the ability to engage constructively with difficult topics.
 
-I use computational text analysis, GIS mapping, and ethnographic video analysis to understand how violence emerges, spreads, and can be transformed. At Bryn Mawr, I've built the **DANGA Lab** (Dynamics of Aggression and Nonviolent Group Action), training students in collaborative research methods.
-
-## Teaching
-
-"To teach is to create a space in which the community of truth is practiced." My pedagogy centers on active learning, dialogue across difference, and connecting research to real-world challenges. I want students to develop not just sociological knowledge, but transferable skills: critical reading, collaborative inquiry, and the ability to engage constructively with difficult topics.
-
-## Background
-
-Before graduate school, I worked with peacebuilding organizations in India, where I learned experiential education methods that still shape my teaching. I hold degrees from the University of Pennsylvania (Ph.D. and A.M. in Sociology), Rice University (B.A. in Linguistics and Asian Studies), and the Henry Martyn Institute (Post Graduate Diploma in Peace Studies).
-
-India's pluralism and long history of ethno-religious unrest make it an ideal site for theorizing contentious politics in contexts more reflective of the global population than Western Europe or the United States. My multi-level agenda combines methodological range with theoretical depth to explain how violence is produced, prevented, and transformed.
+I work with a small group of undergraduate research collaborators in a collective we refer to as the Dynamics of Aggression and Nonviolent Group Action Lab, or DANGA Lab (from दंगा, the Hindi word for riot).
