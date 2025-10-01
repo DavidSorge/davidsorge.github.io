@@ -31,12 +31,17 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2' # Updated to meet bundler requirements
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.2'
+          bundler-cache: false # Disable automatic caching to avoid frozen mode issues
+          cache-version: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install dependencies
+        run: |
+          bundle config set --local deployment false
+          bundle config set --local path vendor/bundle
+          bundle install
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
