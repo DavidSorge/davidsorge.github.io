@@ -3,6 +3,9 @@
 
 // - - - - - - - - - - Foundations
 
+@use "sass:math";
+@use "sass:color";
+
 @import "_reset";
 @import "_mixins";
 @import "_plugins";

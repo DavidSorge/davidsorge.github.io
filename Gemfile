@@ -14,6 +14,9 @@ gem "logger"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 
+# GitHub Pages compatibility (optional - only if you want to test locally with github-pages gem)
+# gem "github-pages", group: :jekyll_plugins
+
 # Windows and JRuby specific gems
 platforms :windows, :jruby do
   gem "tzinfo", ">= 1", "< 3"
