@@ -4,18 +4,20 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# Core Jekyll
-gem "jekyll", "~> 4.2"
+# Core Jekyll - use version compatible with GitHub Actions
+gem "jekyll", "~> 4.3.0"
 
-# Future compatibility - add logger gem for Ruby 3.5+ compatibility
-gem "logger"
+# Required gems for modern Jekyll
+gem "webrick", "~> 1.7"
+gem "logger", "~> 1.4"
 
 # Plugins required by the Index theme and our configuration
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-sitemap", "~> 1.4"
 
-# GitHub Pages compatibility (optional - only if you want to test locally with github-pages gem)
-# gem "github-pages", group: :jekyll_plugins
+# Additional gems that GitHub Actions might need
+gem "rouge", "~> 4.0"
+gem "kramdown-parser-gfm", "~> 1.1"
 
 # Windows and JRuby specific gems
 platforms :windows, :jruby do
